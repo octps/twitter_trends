@@ -1,0 +1,223 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: "メイリオ", Meiryo, Arial,Helvetica,"游ゴシック",YuGothic,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+  font-size:1.15em;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background: #f0f4f7;
+}
+
+.footer-top {
+  height:20px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/*body > .container {
+  padding: 60px 15px 0;
+}
+*/
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.fullname {
+  word-break: break-all;
+  color:#14171a;
+  /*font-size:14px;*/
+  font-weight: bold;
+}
+
+.username {
+  /*font-size: 14px;*/
+  color:#657786;
+}
+
+.timestamp {
+  color: #657786;
+}
+
+.TweetTextSize {
+  /*font-size:14px;*/
+  font-weight:normal;
+  line-height:30px;
+  white-space:pre-wrap;
+}
+
+a {
+  word-break: break-all
+}
+
+strong a {
+  color:#14171a;
+  text-decoration: underline;
+}
+
+strong a:hover {
+  color:#1c94e0;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 10px;
+  border-bottom: 1px dotted #657786;
+  font-weight: bold;
+}
+
+h2 a {
+  /*color:#14171a;*/
+}
+
+h2 a:hover {
+  color:#1c94e0;
+  text-decoration: underline;
+}
+
+.image {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image img {
+  height:200px;
+  width:100%;
+  object-fit: cover;
+}
+
+.text {
+  vertical-align: top;
+  height:auto;
+  display: inline-block;
+}
+
+.item {
+  background: #f0f4f7;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;        /* CSS3草案 */  
+  -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+  -moz-border-radius: 10px;   /* Firefox用 */  
+}  
+
+.item:last-child {
+  margin-bottom: 30px;
+}
+
+.w70 {
+  width:69%;
+}
+
+.w80 {
+  width:79%;
+}
+
+.w30 {
+  width:30%;
+}
+
+.w20 {
+  width:20%;
+}
+
+.navbar {
+  background: #f0f4f7;
+}
+
+.names {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #9cadbb;
+}
+
+.toDetail {
+  display: inline-block;
+  background: #007bff;
+  margin: 10px 0;
+  width:auto;
+  height:auto;
+  padding: 3px;
+  border-radius: 3px;        /* CSS3草案 */
+  -webkit-border-radius: 3px;    /* Safari,Google Chrome用 */  
+  -moz-border-radius: 3px;   /* Firefox用 */  
+  color: #fff;
+}
+
+.logo {
+  width:auto;
+  height:32px;
+}
+
+.leads .lead {
+  font-size: 0.9em;
+}
+.leads p {
+  margin-bottom: 0;
+}
+
+.leads .lead.text-muted {
+  font-size: 0.7em;
+  margin-bottom: 1rem;
+}
+
+.pageH1 {
+  font-size: 0.9em;
+}
+
+.aboutH1 {
+  font-size: 2rem;
+}
+
+.footer span {
+  float: right;
+  font-size: 0.7em;
+  margin-top: 10px;
+}
+
+.nav-item {
+  margin-right:0.7em;
+}
+
+.select_day {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 384px) {
+  .footer a {
+    font-size: 80%;
+  }
+
+  .image {
+    width:100%;
+  }
+
+  .footer span {
+    display: block;
+    margin-top: 0;
+    line-height: 1;
+  }
+}
